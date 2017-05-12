@@ -28,8 +28,9 @@ The goals / steps of this project are the following:
 
 ### Submitted Files
 1. Advanced Lane Detection.ipynb - Code of running project
-2. Readme.md - Project Rubic
-3.
+2. README.md - Project Rubic
+3. project_video_out.mp4 - Output video
+4. challenge_video_out.mp4 - Challenge output video
 
 ### Camera Calibration
 
@@ -125,4 +126,4 @@ Code to calculate radius of the curvature and cars position on road is on block 
 
 1. Current approach is unable to detect tracks on the harder challenge track. A more robust approach is needed.
 2. I have not implemented check to detect distances between the lanes. That seems like a very relevant check.
-3. Another idea I had was around calculating a triangle with center of car's hood as one vertex and another two vertices on the two lanes a certain distance away. Now we could calculate the angles and regardless of the turns or straight road, these angles would remain same and would help in keeping the car on center of the lane. 
+3. Another idea I had was around calculating a triangle with center of car's hood as one vertex and another two vertices on the two lanes a certain distance away. Now we could calculate the angles and regardless of the turns or straight road, these angles would remain same and would help in keeping the car on center of the lane.
